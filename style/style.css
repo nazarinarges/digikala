@@ -31,6 +31,10 @@ header{
     top: 0;
 }
 
+.background-header-bottom{
+    background-color: white;
+}
+
 .background-header{
     background-color: white;
     padding: 20px;
