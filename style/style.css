@@ -27,13 +27,15 @@ input , button{
 header{
     display: flex;
     flex-direction: column;
+    position: sticky;
+    top: 0;
 }
 
 .background-header{
     background-color: white;
     padding: 20px;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
 }
 
 .header-top{
