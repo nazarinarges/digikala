@@ -29,6 +29,7 @@ header{
     flex-direction: column;
     position: sticky;
     top: 0;
+    box-shadow: 0px 1px rgb(246 239 239);
 }
 
 .background-header-bottom{
@@ -124,6 +125,7 @@ header{
     padding: 0px 20px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .header-bottom-right{
