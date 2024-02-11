@@ -151,3 +151,38 @@ header{
 .t-decoration{
     text-decoration: none;
 }
+
+/* main */
+.storieswraper{
+    margin-top: 30px;
+    gap: 25px;
+    margin-right: 20px;
+}
+
+.story-pic-background{
+    border: solid 2px purple;
+    border-radius: 100%;
+    margin-bottom: 5px;
+}
+
+.story{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sp{
+    /* position: absolute; */
+    border-radius: 100%;
+    width: 80px;
+    margin: 3px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 0.1px;
+}
+
+.link-story{
+    text-decoration: none;
+    color: black;
+}
