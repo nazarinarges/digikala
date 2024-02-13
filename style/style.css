@@ -22,6 +22,15 @@ input , button{
     outline: none;
 }
 
+.container{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.text-decoration{
+    text-decoration: none;
+    color: black;
+}
 /* header */
 
 header{
@@ -156,7 +165,9 @@ header{
 .storieswraper{
     margin-top: 30px;
     gap: 25px;
-    margin-right: 40px;
+    /* margin-right: 40px;
+    margin-left: 40px; */
+    overflow: auto;
 }
 
 .story-pic-background{
@@ -185,4 +196,121 @@ header{
 .link-story{
     text-decoration: none;
     color: black;
+}
+
+.baner{
+    width: 100%;
+    height: auto;
+    margin-top: 8px;
+}
+
+.easy-access{
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+
+.access-img{
+    width: 50px;
+    height: 50px;
+}
+
+.ellipsis{
+    background-color: gainsboro;
+    border-radius: 100%;
+}
+
+.easy-access-box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.access-text{
+    text-decoration: none;
+    color: black;
+}
+
+.m-more{
+    margin-right: 5px;
+}
+
+.amazing-offers{
+    border-radius: 20px;
+    background-color:#f53a3afa;
+    margin-bottom: 20px;
+    padding: 20px;
+    overflow: auto;
+}
+
+.amazing-offer-logo-box{
+    /* display: block; */
+    flex-direction: column;
+    
+}
+
+.amazing-offer-text{
+    font-size: 20px;
+    color: white;
+}
+
+.logo-size1{
+    width: 80px;
+    height: 80px;
+}
+
+.logo-size2{
+    width: 150px;
+    height: 150px;
+}
+
+.amazing-offer-tool{
+    background-color: white;
+    padding: 30px 20px;
+}
+
+.first-photo{
+    border-top-right-radius: 10px;
+    border-end-start-radius:10px ;
+}
+
+.price{
+    justify-content: space-between;
+}
+
+.amazaing-offer-Discount{
+direction: ltr;
+text-decoration-line: line-through;
+color: #808080ad;
+margin-top: 10px;
+margin-left: 15px;
+}
+
+.percent{
+    background-color: tomato;
+    width: 35px;
+    /* height: 30px; */
+    border-radius: 16px;
+    text-align: center;
+    color: white;
+}
+
+.amazaing-offer-photo{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+/* test-after delete it */
+.test{
+    width: 100%;
+    height: 150px;
+    background-color: aquamarine;
+    /* position: relative; */
+    gap: 250px;
+    overflow: auto;
+}
+
+.button{
+    /* position:absolute; */
+    /* top: 0; */
 }
